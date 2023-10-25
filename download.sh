@@ -15,7 +15,7 @@ function help(){
 
 function checkWritePerms(){
    if [[ ! -w "." ]]; then #write perms must be assigned
-      echo "unable to write to current directory!\n"
+      echo "unable to write to current directory!"
       exit 2
    fi 
 }
